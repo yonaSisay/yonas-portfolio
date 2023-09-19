@@ -23,7 +23,45 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
+    linkedin,
+    telegram,
+    twitter,
+    instagram,
   } from "../assets";
+
+  export const socialLinks = [
+    {
+      id: "github",
+      icon: github,
+      link: "",
+      bg: "#181717",
+    },
+    {
+      id: "linkedin",
+      icon: linkedin,
+      link: "",
+      bg: "#0077B5",
+    },
+    {
+      id: "twitter",
+      icon: twitter,
+      link: "",
+      bg: "#1DA1F2",
+    },
+    {
+      id: "instagram",
+      icon: instagram,
+      link: "",
+      bg: "#E1306C",
+    },
+    {
+      id: "telegram",
+      icon: telegram,
+      link: "",
+      bg: "#0088CC",
+    },
+  ]
   
   export const navLinks = [
     {
