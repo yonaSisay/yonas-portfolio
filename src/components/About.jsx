@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc";
+import yoni from "../assets/yoni.jpg";
 
 const ServiceCard = ({ index, title, icon }) => {
 	return (
@@ -38,17 +39,21 @@ const About = () => {
 				<p className={styles.sectionSubText}>Introduction</p>
 				<h2 className={styles.sectionHeadText}>Overview</h2>
 			</motion.div>
-			<motion.p
+
+			<motion.div
 				variants={fadeIn("", "", 0.1, 1)}
-				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+				className="mt-4 leading-[30px] flex flex-col lg:flex-row lg:h-[300px]"
 			>
-				I am a full stack developer with a passion for creating beautiful and
-				functional websites. I have experience working with React, Node, and
-				MongoDB. I am currently working on a project that uses the MERN stack
-				and I am looking for opportunities to expand my knowledge and skills. if
-				you have any questions or would like to work together, please feel free
-				to contact me.
-			</motion.p>
+				<img src={yoni} alt="" className="lg:mx-0 md:mx-20 rounded-xl object-contain shadow-card"/>
+				<p className="text-secondary text-[17px] lg:ml-12 lg:mt-0 mt-8">
+					I am a full stack developer with a passion for creating beautiful and
+					functional websites. I have experience working with React,Vue, Node, and
+					MongoDB. I am currently working on a project that uses the MERN and MEVN stack
+					and I am looking for opportunities to expand my knowledge and skills.
+					if you have any questions or would like to work together, please feel
+					free to contact me.| +251963302899
+				</p>
+			</motion.div>
 
 			<div className="mt-20 flex flex-wrap gap-10 justify-center">
 				{services.map((service, index) => (

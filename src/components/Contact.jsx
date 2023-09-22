@@ -120,6 +120,7 @@ const Contact = () => {
 		  >
 			<EarthCanvas />
 		  </motion.div>
+		
 		</div>
 	  );
 };
