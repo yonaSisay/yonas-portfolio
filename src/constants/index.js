@@ -17,12 +17,8 @@ import {
 	figma,
 	docker,
 	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	getnet,
+	aastu,
 	threejs,
 	github,
 	linkedin,
@@ -162,7 +158,7 @@ const experiences = [
 	{
 		title: "Software Engineering student ",
 		company_name: "AASTU",
-		icon: meta,
+		icon: aastu,
 		iconBg: "#E6DEDD",
 		date: "Jan 2023 - Present",
 		points: [
@@ -176,7 +172,7 @@ const experiences = [
 	{
 		title: "Front end Developer intern",
 		company_name: "Get-net software solutions",
-		icon: meta,
+		icon: getnet,
 		iconBg: "#E6DEDD",
 		date: "Jan 2023 - Present",
 		points: [
