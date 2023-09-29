@@ -44,14 +44,19 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 leading-[30px] flex flex-col lg:flex-row lg:h-[300px]"
 			>
-				<img src={yoni} alt="" className="lg:mx-0 md:mx-20 rounded-xl object-contain shadow-card"/>
+				<img
+					src={yoni}
+					alt=""
+					className="lg:mx-0 md:mx-20 rounded-xl object-contain shadow-card"
+				/>
 				<p className="text-secondary text-[17px] lg:ml-12 lg:mt-0 mt-8">
 					I am a full stack developer with a passion for creating beautiful and
-					functional websites. I have experience working with React,Vue, Node, and
-					MongoDB. I am currently working on a project that uses the MERN and MEVN stack
-					and I am looking for opportunities to expand my knowledge and skills.
-					if you have any questions or would like to work together, please feel
-					free to contact me.| +251963302899
+					functional websites. I have experience working with React,Vue, Node,
+					and MongoDB. I am currently working on a project that uses the MERN
+					and MEVN stack and I am looking for opportunities to expand my
+					knowledge and skills. if you have any questions or would like to work
+					together, please feel free to contact me.|
+					<span className="text-violet-400">+251963302899</span>
 				</p>
 			</motion.div>
 
