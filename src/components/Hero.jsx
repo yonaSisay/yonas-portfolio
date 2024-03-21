@@ -1,36 +1,62 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import yoni from "../assets/yonas.png";
+import yoni from "../assets/yoni.jpg";
 import LottieHero from "./LottieHero";
+import { Icon } from "@iconify/react";
+import { Tilt } from "react-tilt";
 
 const Hero = () => {
 	return (
 		<section className="relative w-full h-screen mx-auto">
 			<div className={`${styles.paddingX}  flex flex-row justify-center `}>
-				<div className="flex items-center">
-					{/* <div className="flex flex-col items-center justify-center ">
-						<div className="w-5 h-5 rounded-full bg-[#915eff]" />
-						<div className="w-1 h-40 sm:h-80 violet-gradient" />
-					</div> */}
-					<div>
-						<h1 className={`${styles.heroHeadText} text-white`}>
-							Hi , I'm <span className="text-[#915eff]">Yonas</span>
-						</h1>
+				<div className="flex items-center mt-60 gap-x-40">
+					<div className="flex flex-col justify-center h-full gap-y-16 ">
+						<div>
+							<h1 className={`${styles.heroHeadText} text-white`}>
+								Hi , I'm <span className="text-[#915eff]">Yonas</span>
+							</h1>
 
-						<p
-							className={`${styles.heroSubText} mt-2 text-white-100 capitalize`}
-						>
-							full-stack web developer from <br className="hidden sm:block" />{" "}
-							Addis Ababa, Ethiopia.
-						</p>
+							<p
+								className={`text-base mt-2 w-[600px] text-white-100 capitalize`}
+							>
+								<span className="text-[#915eff] font-medium">
+									Full-Stack Developer
+								</span>{" "}
+								with experience in{" "}
+								<span className="text-[#915eff]">React.js, Vue.js, Go,</span>{" "}
+								and various technologies. Proven ability to collaborate in
+								teams, build responsive web applications
+							</p>
+						</div>
+						<div className="flex gap-x-12">
+							<a
+								href="#projects"
+								className="p-[1px] green-pink-gradient rounded-lg hover:transform hover:translate-y-[-4px] transition-all ease-in-out duration-75 hover:shadow-md"
+							>
+								<button className="flex items-center px-8 py-4 text-xl rounded-lg gap-x-4 w-fit bg-tertiary ">
+									<Icon icon="grommet-icons:projects" className="text-base" />
+									<span>Projects</span>
+								</button>
+							</a>
+
+							<a
+								href="https://drive.google.com/file/d/15W3BwCGVVXalYSERaPbO8-M4VgoB2C5a/view?usp=sharing"
+								target="_blank"
+								className="p-[1px] flex	items-center gap-x-4 text-xl "
+							>
+								<Icon icon="simple-icons:readdotcv" />
+								View Resume
+							</a>
+						</div>
 					</div>
-					{/* <img
-            src={yoni}
-            alt=""
-            className="w-[800px] h-[800px]  object-cover"
-          /> */}
-					<LottieHero />
+					<div className="p-[2px] green-pink-gradient rounded-[20px]">
+						<img
+							src={yoni}
+							alt=""
+							className="shadow-card object-cover h-[450px] w-[450px] lg:mx-0 md:mx-20 rounded-[20px] "
+						/>
+					</div>
 				</div>
 			</div>
 

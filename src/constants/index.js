@@ -32,6 +32,7 @@ import {
 	kena,
 	sheger,
 	plan,
+	a2sv,
 } from "../assets";
 
 export const socialLinks = [
@@ -162,17 +163,17 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Software Engineering student ",
-		company_name: "AASTU",
-		icon: aastu,
-		website: "http://www.aastu.edu.et/",
+		title: "Full Stack Developer",
+		company_name: "Minab it solutions",
+		website: "https://www.minabtech.com/",
+		icon: minabIcon,
 		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		date: "Oct 2023 - present",
 		points: [
-			"Studied various programming languages and technology stacks.",
-			"Participated in a variety of projects, both collaboratively within a team and individually.",
-			"Acquired knowledge in diverse Software Development Life Cycle (SDLC) methodologies and gained  documenting project requirements.",
-			"Developed teamwork skills and gained practical experience in collaborating effectively within a group.",
+			"Developing  web application using Vue.js Go and Hasura.",
+			"Collaborating with cross-functional teams ",
+			"Implementing responsive design and ensuring cross-browser compatibility using tailwind.",
+			"Creating enterprise level website with Hasura and Nuxt.js",
 		],
 	},
 
@@ -191,17 +192,31 @@ const experiences = [
 		],
 	},
 	{
-		title: "Web developer",
-		company_name: "Minab it solutions",
-		website: "https://www.minabtech.com/",
-		icon: minabIcon,
+		title: "Data Structure and Algorithm Trainee ",
+		company_name: "A2SV",
+		icon: a2sv,
+		website: "https://a2sv.org/",
 		iconBg: "#E6DEDD",
-		date: "Oct 2023 - present",
+		date: "Dec 2022 - 2023 Sept",
+
 		points: [
-			"Developing  web application using Vue.js Go and Hasura.",
-			"Collaborating with cross-functional teams ",
-			"Implementing responsive design and ensuring cross-browser compatibility using tailwind.",
-			"Creating enterprise level website with Hasura and Nuxt.js",
+			"I devoted a full year to thorough, in-person study of data structures and algorithms.",
+			"solved more than 400  DSA questions on LeetCode and other platforms.",
+			"Developed teamwork skills and gained practical experience in collaborating effectively within a group.",
+		],
+	},
+	{
+		title: "Software Engineering student ",
+		company_name: "AASTU",
+		icon: aastu,
+		website: "http://www.aastu.edu.et/",
+		iconBg: "#E6DEDD",
+		date: "Sep 2019 - Present",
+		points: [
+			"Studied various programming languages and technology stacks.",
+			"Participated in a variety of projects, both collaboratively within a team and individually.",
+			"Acquired knowledge in diverse Software Development Life Cycle (SDLC) methodologies and gained  documenting project requirements.",
+			"Developed teamwork skills and gained practical experience in collaborating effectively within a group.",
 		],
 	},
 ];

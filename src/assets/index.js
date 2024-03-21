@@ -29,6 +29,7 @@ import meta from "./company/meta.png";
 import getnet from "./company/getnet.png";
 import aastu from "./company/AASTU.jpg";
 import minabIcon from "./minabicon.png";
+import a2sv from "./company/a2svlogo.jpeg";
 
 /*-------------------project images-------------------*/
 import carrent from "./carrent.png";
@@ -87,4 +88,5 @@ export {
 	sheger,
 	plan,
 	minabIcon,
+	a2sv,
 };

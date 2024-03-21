@@ -4,7 +4,7 @@ import Lottie from "react-lottie";
 
 function LottieHero() {
 	const defaultOptions = {
-		loop: true,
+		loop: false,
 		autoplay: true,
 		animationData: developmentAnimation,
 		rendererSettings: {
@@ -14,7 +14,7 @@ function LottieHero() {
 
 	return (
 		<div>
-			<Lottie options={defaultOptions} height={800} width={800} />
+			<Lottie options={defaultOptions} height={600} width={600} />
 		</div>
 	);
 }

@@ -13,7 +13,7 @@ const Navbar = () => {
 			className={`${styles.paddingX} w-full flex
     items-center py-5 fixed top-0 z-20 bg-primary`}
 		>
-			<div className="w-full  flex justify-between  items-center max-w-7xl mx-auto">
+			<div className="flex items-center justify-between w-full mx-auto max-w-7xl">
 				<Link
 					to="/"
 					className="flex items-center gap-2"
@@ -22,14 +22,13 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-
-					<p className="text-white text-[18px] font-bold cursor-pointer flex">
-						Yonas &nbsp; <span className="sm:block hidden">Sisay</span>
+					<p className="text-white text-[18px] font-bold cursor-pointer gap-x-2 flex">
+						<span className="text-[#915eff]">Yonas</span>
+						<span className="hidden sm:block">Sisay</span>
 					</p>
 				</Link>
 
-				<ul className="list-none hidden sm:flex flex-row  gap-10">
+				<ul className="flex-row hidden gap-10 list-none sm:flex">
 					{navLinks.map((Link) => (
 						<li
 							key={Link.id}
@@ -43,7 +42,7 @@ const Navbar = () => {
 					))}
 				</ul>
 
-				<div className="sm:hidden flex flex-1 justify-end items-center">
+				<div className="flex items-center justify-end flex-1 sm:hidden">
 					<img
 						src={toggle ? close : menu}
 						alt="menu"
@@ -56,7 +55,7 @@ const Navbar = () => {
 							!toggle ? "hidden" : "flex"
 						}  p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
 					>
-						<ul className="list-none  flex flex-col justify-end items-start  gap-4">
+						<ul className="flex flex-col items-start justify-end gap-4 list-none">
 							{navLinks.map((Link) => (
 								<li
 									key={Link.id}
