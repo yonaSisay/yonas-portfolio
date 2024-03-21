@@ -54,7 +54,7 @@ const Hero = () => {
 						<img
 							src={yoni}
 							alt=""
-							className="shadow-card object-cover h-[450px] w-[450px] lg:mx-0 md:mx-20 rounded-[20px] "
+							className="shadow-card object-cover h-[550px] w-[450px] lg:mx-0 md:mx-20 rounded-[20px] "
 						/>
 					</div>
 				</div>
