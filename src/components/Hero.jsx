@@ -18,7 +18,7 @@ const Hero = () => {
 							</h1>
 
 							<p
-								className={`text-base mt-2 w-[600px] text-white-100 capitalize`}
+								className={`text-base mt-2 w-[600px] text-secondary capitalize`}
 							>
 								<span className="text-[#915eff] font-medium">
 									Full-Stack Developer
@@ -43,10 +43,12 @@ const Hero = () => {
 							<a
 								href="https://drive.google.com/file/d/15W3BwCGVVXalYSERaPbO8-M4VgoB2C5a/view?usp=sharing"
 								target="_blank"
-								className="p-[1px] flex	items-center gap-x-4 text-xl "
+								className="p-[1px] 	text-xl rounded-lg hover:transform hover:translate-y-[-4px] transition-all ease-in-out duration-75 hover:shadow-md"
 							>
-								<Icon icon="simple-icons:readdotcv" />
-								View Resume
+								<button className="flex items-center px-8 py-4 text-xl rounded-lg gap-x-4 w-fit  text-black bg-[#a2a9ff]">
+									<Icon icon="simple-icons:readdotcv" className="text-2xl" />
+									<span>View Resume</span>
+								</button>
 							</a>
 						</div>
 					</div>

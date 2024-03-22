@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { Icon } from "@iconify/react";
 
 const Navbar = () => {
 	const [active, setActive] = useState("");
@@ -28,7 +29,7 @@ const Navbar = () => {
 					</p>
 				</Link>
 
-				<ul className="flex-row hidden gap-10 list-none sm:flex">
+				<ul className="flex-row items-center hidden gap-10 list-none sm:flex">
 					{navLinks.map((Link) => (
 						<li
 							key={Link.id}
@@ -40,6 +41,14 @@ const Navbar = () => {
 							<a href={`#${Link.id}`}>{Link.title}</a>
 						</li>
 					))}
+
+					<a
+						href={`#contact`}
+						className="text-black flex items-center gap-x-2 bg-[#a2a9ff] text-[18px]  px-6 py-2 rounded-md"
+					>
+						<Icon icon="ic:outline-email" className="text-xl" />
+						Contact
+					</a>
 				</ul>
 
 				<div className="flex items-center justify-end flex-1 sm:hidden">
@@ -70,6 +79,9 @@ const Navbar = () => {
 									<a href={`#${Link.id}`}>{Link.title}</a>
 								</li>
 							))}
+							<li className="text-secondary">
+								<a href={`#contact`}>Contact</a>
+							</li>
 						</ul>
 					</div>
 				</div>
