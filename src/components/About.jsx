@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc";
-import yoni from "../assets/yoni.jpg";
+import { yonaspic } from "../assets/index";
 
 const ServiceCard = ({ index, title, icon }) => {
 	return (
@@ -45,7 +45,7 @@ const About = () => {
 				className="mt-4 leading-[30px] flex flex-col lg:flex-row lg:h-[300px]"
 			>
 				<img
-					src={yoni}
+					src={yonaspic}
 					alt=""
 					className="lg:mx-0 md:mx-20 rounded-xl object-contain shadow-card"
 				/>

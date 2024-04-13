@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import yoni from "../assets/yoni.jpg";
+import { yonaspic } from "../assets/index";
 import LottieHero from "./LottieHero";
 import { Icon } from "@iconify/react";
 import { Tilt } from "react-tilt";
@@ -54,7 +55,7 @@ const Hero = () => {
 					</div>
 					<div className="p-[2px] green-pink-gradient rounded-[20px]">
 						<img
-							src={yoni}
+							src={yonaspic}
 							alt=""
 							className="shadow-card object-cover h-[550px] w-[450px] lg:mx-0 md:mx-20 rounded-[20px] "
 						/>
