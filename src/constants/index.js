@@ -33,6 +33,8 @@ import {
 	sheger,
 	plan,
 	a2sv,
+	splitbor,
+	tarixchi,
 } from "../assets";
 
 export const socialLinks = [
@@ -327,6 +329,86 @@ const projects = [
 		source_code_link: "",
 		web_link: "https://staging.uymp.org/",
 	},
+
+	{
+		name: "Tarixchi - Your Gateway to Unlock Uzbekistan's Hidden History",
+		description:
+			"Unique platform dedicated to unveiling the rich tapestry of Uzbekistan's history, one historically meaningful document at a time.",
+		tags: [
+			{
+				name: "Vue",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Nuxt.js",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Axios",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Headless",
+				color: "pink-text-gradient",
+			},
+
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Pinia",
+				color: "blue-text-gradient",
+			},
+			{
+				name: ".Net",
+				color: "blue-text-gradient",
+			},
+		],
+		image: tarixchi,
+		source_code_link: "",
+		web_link: "https://tarixchi.vercel.app/",
+	},
+	{
+		name: "Split bore, buy product by splitting payments",
+		description:
+			"SplitBor.uz allows you to divide the cost of your purchase into four equal parts, free from any extra fees or overpayments. This feature simplifies payment processes, making shopping more accessible and budget-friendly",
+		tags: [
+			{
+				name: "Vue",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Nuxt.js",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Axios",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Headless",
+				color: "pink-text-gradient",
+			},
+
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Pinia",
+				color: "blue-text-gradient",
+			},
+			{
+				name: ".Net",
+				color: "blue-text-gradient",
+			},
+		],
+		image: splitbor,
+		source_code_link: "",
+		web_link: "https://split-bor.vercel.app/",
+	},
+
 	{
 		name: "Delicious recipe",
 		description:
